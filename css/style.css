@@ -20,12 +20,14 @@
     --font-brand: "Henny Penny", system-ui;
     --font-heading: "Playfair Display", serif;
     --font-body: "Inter", sans-serif;
-    --blue: #2364AA;
-    --yellow: #FEC601;
+    --deepblue: #1D3557;
+   --sky: #457B9D; 
+    --tealeaf: #A8DADC;    
+    --cream: #F1FAEE;       
+    --gold: #E9C46A;
     --vanilla: #F0EAD2;
-    --brown: #2C1A0E;
-    --beige: #7C6F64;
-    --white: #FDFAF5;
+    --denim: #4a6fa5;
+
 }
 * {
     margin: 0;
@@ -36,7 +38,7 @@
 body {
     font-family: var(--font-body);
     background-color:var(--vanilla);
-    color: var(--brown);
+    color: var(--deepblue);
 }
 h1,h2,h3,h4 {
     font-family: var(--font-heading);
@@ -44,14 +46,15 @@ h1,h2,h3,h4 {
 .brand-text {
     font-family: var(--font-brand);
     font-size: 1.8rem;
-    color: var(--beige);
+    color: var(--deepblue);
     margin:0;
+    letter-spacing: 0.05rem;
 }
 li, a, button {
     font-family: var(--font-body);
     font-weight: 500;
     font-size: 16px;
-    color:var(--beige) ;
+    color:var(--deepblue) ;
     text-decoration: none;
 }
 header {
@@ -60,7 +63,7 @@ header {
     align-items: center;
     padding: 0 15px;
     height: 70px;
-    background-color:var(--brown) ;
+    background-color:var(--denim) ;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -68,7 +71,7 @@ header {
 }
 .logo {
     width: auto;
-    height: 90px;
+    height: 70px;
     margin-left: 0;
 }
 nav {
@@ -86,7 +89,7 @@ nav {
 }
 .nav__links li:not(.brand-link) a{
     font-family: var(--font-body);
-    color:var(--beige) ;
+    color:var(--deepblue) ;
     font-size: 18px;
     transition: all 0.3s ease 0s;
 }
@@ -95,14 +98,13 @@ color: var(--vanilla);
 }
 button{
     padding: 9px 25 px;
-    background-color: #FEC601;
     border: none;
     border-radius: 50px;
     cursor:pointer;
     transition: all 0.3s ease 0s;
 }
 button:hover {
-    background-color:#F0EAD2;
+    background-color:var();
     color: white;
 }
 .brand-link {
@@ -110,14 +112,12 @@ button:hover {
     margin-top: 10px;
     margin-left: 0px;
 }
-
 .brand-link a {
     font-family: var(--font-brand);
     font-size: 1.7rem;
     color: var(--beige);
     margin-right: 40px;
 }
-
 .container {
     max-width: 1170px;
     margin:auto;
@@ -126,14 +126,12 @@ ul{
    list-style: none; 
 }
 .footer {
-    background-color: var(--brown);
-    padding: 70px 0;
-
+    background-color: var(--deepblue);
+    padding: 60px 0;
 }
 .footer-col {
     width: 25%;
     padding:0 15px;
-
 }
 .footer-col h4 {
     font-size: 18px;
@@ -149,7 +147,7 @@ ul{
     position: absolute;
     left:0 ;
     bottom: -10px;
-    background-color:var(--beige) ;
+    background-color:var(--vanilla) ;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -161,14 +159,14 @@ ul{
     font-size: 16px;
     text-transform: capitalize;
     font-family: var(--font-body);
-    color:var(--beige);
+    color:var(--vanilla);
     text-decoration: none;
     font-weight: 400;
     display: block;
     transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-    color:var(--vanilla);
+    color:var(--sky);
     padding-left:7px; 
 }
 .row{
@@ -179,15 +177,171 @@ ul{
     display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: var(--beige);
+    background-color: var(--vanilla);
     margin: 0 10px 0;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
     transition: all 0.5s ease;
-    color: var(--vanilla);
+    color: var(--deepblue);
 }
 .footer-col .social-links a:hover{
-    color: var(--beige);
-    background-color: var(--vanilla);
+    color: var(--vanilla);
+    background-color: var(--sky);
+}
+.hero-image{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("../assets/images_by_me/prague5.jpeg");
+ background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    
+    /* Centering Logic */
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center;     /* Vertical center */
+    text-align: center;
+}
+.hero-content {
+    max-width: 800px; /* Prevents text from stretching too wide */
+    padding: 20px;
+    z-index: 1;
+}
+
+.hero-title {
+    font-family: var(--font-heading);
+    color: var(--vanilla);
+    font-size: clamp(2rem, 7vw, 5rem); 
+    text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+    font-weight: 300;
+}
+
+.hero-subtitle {
+    font-family: var(--font-body);
+    color: var(--vanilla);
+    padding-top: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-shadow:2px 4px 10px rgba(0, 0, 0, 0.3) ;
+    margin-bottom: 30px;
+}
+.hero-btn {
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: var(--denim); /* That warm accent color we picked */
+    color: var(--vanilla);
+    text-decoration: none;
+    border-radius: 70px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.hero-btn:hover {
+    transform: scale(1.01);
+}
+.about-section {
+    padding: 100px 10%;
+    background-color: var(--white); /* Keeps it clean and bright */
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Make it stack on mobile phones */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.about-image {
+    flex: 1;
+    max-width: 450px;
+}
+
+.founder-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; /* Softens the look */
+    box-shadow: 15px 15px 0px var(--tea-leaf); /* Adds a cool offset shadow using your brand color */
+}
+
+.about-text {
+    flex: 1.2;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--dark-slate); /* Using your new palette color */
+}
+
+.about-text p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #444; /* Slightly softer than pure black */
+}
+
+.about-cta {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--clay); /* Your warm accent color */
+    transition: transform 0.3s ease;
+}
+
+.about-cta:hover {
+    transform: translateX(10px);
+}
+.section-padding {
+    padding: 80px 10%; /* Lots of top/bottom space and side breathing room */
+    text-align: center;
+}
+
+.feature-container, .steps-wrapper, .dest-container, .pricing-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to drop to next line on mobile */
+    justify-content: center;
+    gap: 30px; /* Space between the cards */
+    margin-top: 40px;
+}
+
+.price-card, .feature-card, .dest-card {
+    background: var(--white);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    flex: 1;
+    min-width: 280px; /* Prevents cards from getting too skinny */
+    max-width: 350px;
+}
+.section-padding {
+    padding: 80px 10%; /* Lots of top/bottom space and side breathing room */
+    text-align: center;
+}
+
+.feature-container, .steps-wrapper, .dest-container, .pricing-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to drop to next line on mobile */
+    justify-content: center;
+    gap: 30px; /* Space between the cards */
+    margin-top: 40px;
+}
+
+.price-card, .feature-card, .dest-card {
+    background: var(--white);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    flex: 1;
+    min-width: 280px; /* Prevents cards from getting too skinny */
+    max-width: 350px;
 }
