@@ -1,11 +1,20 @@
 Name der Software: The travel tea
-Beschreibung des Softwareprodukts:"The travel tea" is a website that contains different travel iterenaries, guides and suggestions from trips taken by me the founder( Tea ).It covers everything from eating places,local treasures up until what souvenirs to bring home.This idea comes from the big love that I have for travel.
+
+Beschreibung des Softwareprodukts:"The travel tea" is a website that contains different travel iterenaries, 
+guides and suggestions from trips taken by me the founder( Tea ).It covers everything from eating places,
+local treasures up until what souvenirs to bring home.This idea comes from the big love that I have for travel.
+
 Funktionen: Itenerary builder, budget tracker, To-visit list, Trip planner.
-Zielgruppe: travel enjoyers, (a bit of everything travel style, a mix of fancy places, touristy places, and cheap local gems)
+
+Zielgruppe: travel enjoyers, (a bit of everything travel style, a mix of fancy places, touristy places, 
+and cheap local gems)
 
 Unternehmensdaten: Aliaj GmbH
+
 Standort: Wien, Österreich
+
 Anzahl der Mitarbeiter: 5
 
-Geschäftsmodell: Freemium, basic general guides and iteneraries are for everyone, but the ones customed to the user's exact preferences cost  €4.99/guide . 
+Geschäftsmodell: Freemium, basic general guides and iteneraries are free for everyone, but the ones 
+accustomed to the user's exact preferences cost  €4.99/guide . 
  

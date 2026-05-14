@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.henny-penny-regular {
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+:root {
+    --font-brand: "Henny Penny", system-ui;
+    --font-heading: "Playfair Display", serif;
+    --font-body: "Inter", sans-serif;
+    --blue: #2364AA;
+    --yellow: #FEC601;
+    --vanilla: #F0EAD2;
+    --brown: #2C1A0E;
+    --beige: #7C6F64;
+    --white: #FDFAF5;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+body {
+    font-family: var(--font-body);
+    background-color:var(--vanilla);
+    color: var(--brown);
+}
+h1,h2,h3,h4 {
+    font-family: var(--font-heading);
+}
+.brand-text {
+    font-family: var(--font-brand);
+    font-size: 1.8rem;
+    color: var(--beige);
+    margin:0;
+}
+li, a, button {
+    font-family: var(--font-body);
+    font-weight: 500;
+    font-size: 16px;
+    color:var(--beige) ;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 15px;
+    height: 70px;
+    background-color:var(--brown) ;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05 green, blue, alpha);
+}
+.logo {
+    width: auto;
+    height: 90px;
+    margin-left: 0;
+}
+nav {
+    flex-grow: 1;
+}
+.nav__links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+.nav__links li:not(.brand-link) a{
+    font-family: var(--font-body);
+    color:var(--beige) ;
+    font-size: 18px;
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+color: var(--vanilla); 
+}
+button{
+    padding: 9px 25 px;
+    background-color: #FEC601;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color:#F0EAD2;
+    color: white;
+}
+.brand-link {
+    margin-right: auto;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.brand-link a {
+    font-family: var(--font-brand);
+    font-size: 1.7rem;
+    color: var(--beige);
+    margin-right: 40px;
+}
