@@ -211,7 +211,7 @@ ul{
 .hero-title {
     font-family: var(--font-heading);
     color: var(--vanilla);
-    font-size: clamp(2rem, 7vw, 5rem); 
+    font-size: 4rem; 
     text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
     font-weight: 300;
 }
