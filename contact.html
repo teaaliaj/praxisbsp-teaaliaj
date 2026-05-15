@@ -8,7 +8,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     />
     <link rel="icon" type="image/svg+xml" href="assets/icons/1.svg" />
-  </head>
+</head>
   <body>
     <header>
       <a href="index.html">
@@ -25,7 +25,78 @@
         </ul>
       </nav>
     </header>
-    <main id="contact"></main>
+    <main id="contact">
+      <div class="form-container">
+        <h1 style="margin-bottom: 30px; font-weight: 500">Contact us.</h1>
+        <form id="contactForm">
+          <div class="form-row">
+            <div class="form-col">
+              <label for="name">First Name</label>
+              <input
+                type="text"
+                id="name"
+                name="firstname"
+                placeholder="First name"
+              />
+            </div>
+            <div class="form-col">
+              <label for="surname">Last Name</label>
+              <input
+                type="text"
+                id="surname"
+                name="surname"
+                placeholder="Last name"
+              />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-col">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email"
+              />
+            </div>
+            <div class="form-col">
+              <label for="phonenumber">Phone number</label>
+              <input
+                type="tel"
+                id="phonenumber"
+                name="phonenumber"
+                placeholder="Your phone number"
+              />
+            </div>
+          </div>
+          <div class="form-col">
+            <label for="message">Message</label>
+            <textarea id="message"
+            name="message"
+            rows="6"
+              placeholder="Your message..."
+            >
+        </textarea>
+          </div>
+          <button type="submit" class="button-submit">Send Message</button>        </form>
+      </div>
+      <div class="impressum">
+        <div class="impressum-container">
+          <h1>Impressum</h1>          
+          <h4>Aliaj GmbH</h4>
+          <h4>Mariahilfer Straße 45/3, 1060 Wien, Österreich</h4>
+          <h4>Geschäftsführerin: Tea Aliaj</h4>
+          <h4>E-Mail: contact@thetraveltea.com</h4>
+          <h4>Tel: +43 1 234 5678</h4>
+          <h4>UID-Nummer: ATU12345678 </h4>
+          <h4>Firmenbuchnummer: FN 123456a</h4>
+          <h4>Firmenbuchgericht: Handelsgericht Wien</h4>
+          <h4>Aufsichtsbehörde: Magistrat der Stadt Wien</h4>
+
+        </div>
+      </div>
+    </main>
+    <script src="js/main.js"></script>  
   </body>
   <footer class="footer">
     <div class="container">
