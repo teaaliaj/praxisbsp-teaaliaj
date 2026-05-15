@@ -624,6 +624,9 @@ ul {
   object-fit: cover;
   margin-bottom: 15px;
 }
+.team-container-col h2 {
+ color: var(--cream);
+}
 .team-container-col h3 {
   font-size: 20px;
   margin: 5 px 0;
@@ -634,11 +637,14 @@ ul {
   margin-bottom: 10px;
   font-family: var(--font-body);
   font-weight: 500;
+  color: var(--cream);
 }
 .team-container-col p {
   font-size: 14px;
   line-height: 1.4;
+  color: var(--cream);
 }
+
 
 /*Company details*/
 .company-facts{
