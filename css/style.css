@@ -397,47 +397,35 @@ ul {
   max-width: 350px;
 }
 
+/*PRIVACY PAGE STYLE*/
 .privacy-container {
   max-width: 100%;
   margin: 0 auto;
   padding: 2rem;
   line-height: 1.8;
-  background-color: #1d3557;
+  background-color: var(--deepblue);
+  color: var(--cream);
 }
-
 .privacy-container h1 {
-  margin-bottom: 2rem;
-  color: var(--vanilla);
+  margin-bottom: 20px;
 }
-
 .privacy-container h2 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  color: var(--vanilla);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-
-.privacy-container h3 {
-  color: var(--vanilla);
-}
-
-.privacy-container p {
-  color: var(--vanilla);
-}
-
 .privacy-container ul {
-  padding-left: 1.5rem;
-  margin-bottom: 1rem;
-  color: var(--vanilla);
+  padding-left: 15px;
+  margin-bottom: 20px;
 }
-
 .privacy-container li {
-  margin-bottom: 0.5rem;
-  color: var(--vanilla);
+  margin-bottom: 10px;
+  color: var(--cream);
+}
+.privacy-container a {
+  color: var(--cream);
 }
 
-.privacy-container a {
-  color: var(--vanilla);
-}
+
 
 .form-container {
   max-width: 1000px;
