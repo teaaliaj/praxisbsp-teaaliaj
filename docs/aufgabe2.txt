@@ -6,6 +6,15 @@ Asset name | Author | Source URL | License
 5.oxana-v-qoAIlAmLJBU-unsplash | oxana v     |Photo by <a href="https://unsplash.com/@arttravelling?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">oxana v</a> on <a href="https://unsplash.com/photos/eyeglasses-on-map-qoAIlAmLJBU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>                                             | Unsplash License
 6.annie-spratt-qyAka7W5uMY-unsplash | Annie Spratt|Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/photos/flat-lay-photography-of-camera-book-and-bag-qyAka7W5uMY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>                | Unsplash License
 
+Pictures of people used for the team:
+1.meritt-thomas-aoQ4DYZLE_E-unsplash|Meritt Thomas|Photo by <a href="https://unsplash.com/@merittthomas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Meritt Thomas</a> on <a href="https://unsplash.com/photos/smiling-girl-in-blue-sleeveless-dress-aoQ4DYZLE_E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> | Unsplash License
+2.microsoft-365-7mBictB_urk-unsplash|Microsoft 365|Photo by <a href="https://unsplash.com/@microsoft365?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Microsoft 365</a> on <a href="https://unsplash.com/photos/a-person-holding-a-laptop-7mBictB_urk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>| Unsplash License
+3.charlie-green-3JmfENcL24M-unsplash|Charlie Green|Photo by <a href="https://unsplash.com/@charliegreen998?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Charlie Green</a> on <a href="https://unsplash.com/photos/man-in-black-hoodie-wearing-black-framed-eyeglasses-3JmfENcL24M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>| Unsplash License
+4.leilani-angel-K84vnnzxmTQ-unsplash|Leilani Angel|Photo by <a href="https://unsplash.com/@leilaniangel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Leilani Angel</a> on <a href="https://unsplash.com/photos/man-wearing-eyeglasses-K84vnnzxmTQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>| Unsplash License
+        
+
+
+
 Icons:
 Font Awesome 7.0.1 Icons | Fonticons Inc. | https://cdnjs.com/libraries/font-awesome| CC BY 4.0 (icons), SIL OFL 1.1 (fonts), MIT (code)
 
@@ -17,3 +26,7 @@ Playfair Display | Claus Eggers Sørensen |https://fonts.google.com/specimen/Pla
 Logo created from Canva:  
 Handdrawn Illustration of Hot Coffee Cup| Studio Cat Me Five | https://www.canva.com | Canva Free Content License
 Airplane Flat Icon| Clker-Free-Vector-Images (via Pixabay) | https://www.canva.com | Canva Free Content License
+
+Pattern created from Canva:
+Travel Vector Design , Travel Icon | YoungBanana | https://www.canva.com |Canva Pro Content License 
+Passport travel doodle | Dhea Pramesti | https://www.canva.com |Canva Pro Content License 
