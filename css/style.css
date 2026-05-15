@@ -594,7 +594,7 @@ ul {
 .team-container {
   background-color: var(--denim);
   color: var(--vanilla);
- padding: 60px;
+  padding: 60px;
   width: 100%;
 }
 .team-container-row {
@@ -625,7 +625,7 @@ ul {
   margin-bottom: 15px;
 }
 .team-container-col h2 {
- color: var(--cream);
+  color: var(--cream);
 }
 .team-container-col h3 {
   font-size: 20px;
@@ -645,62 +645,62 @@ ul {
   color: var(--cream);
 }
 
-
 /*Company details*/
-.company-facts{
+.company-facts {
   background-color: var(--cream);
   color: var(--deepblue);
   padding: 60px;
 }
-.company-facts h1{
+.company-facts h1 {
   margin-bottom: 10px;
 }
-.company-facts h3{
+.company-facts h2 {
   margin-bottom: 10px;
-  font-weight: 500;
+  font-weight: 600;
 }
-.company-facts p {
+.company-facts h3 {
   margin-bottom: 5px;
   font-size: 14px;
+  font-family: var(--font-body);
 }
 
 /*Trademark section*/
-.trademark-section{
+.trademark-section {
   background-color: var(--vanilla);
   color: var(--deepblue);
   padding: 60px;
 }
-.trademark-section h1{
+.trademark-section h1 {
   margin-bottom: 20px;
 }
-.trademark-section h2{
+.trademark-section h2 {
   margin-bottom: 10px;
 }
-.trademark-section h3{
+.trademark-section h3 {
   font-weight: 600;
   margin-bottom: 10px;
 }
-.trademark-section p{
+.trademark-section p {
   margin-bottom: 10px;
   font-weight: 400;
 }
 
 /*Nizza Klassen*/
-.nizza-klassen{
+.nizza-klassen {
   padding: 60px;
   background-color: var(--gold);
   color: var(--deepblue);
 }
-.nizza-klassen h2{
+.nizza-klassen h2 {
   margin-bottom: 10px;
   font-weight: 700;
   letter-spacing: 1px;
 }
-.nizza-klassen h3{
+.nizza-klassen h3 {
   margin-bottom: 10px;
   font-weight: 600;
 }
-.nizza-klassen p{
+.nizza-klassen p {
   margin-bottom: 10px;
   font-weight: 300;
 }
