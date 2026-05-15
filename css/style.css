@@ -424,8 +424,14 @@ ul {
 .privacy-container a {
   color: var(--cream);
 }
-
-
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+}
 
 .form-container {
   max-width: 1000px;
