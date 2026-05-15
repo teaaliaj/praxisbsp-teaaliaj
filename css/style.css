@@ -24,12 +24,12 @@
   --font-heading: "Playfair Display", serif;
   --font-body: "Inter", sans-serif;
   --deepblue: #1d3557;
+  --denim: #4a6fa5;
   --sky: #457b9d;
   --tealeaf: #a8dadc;
   --cream: #f1faee;
   --gold: #e9c46a;
   --vanilla: #f0ead2;
-  --denim: #4a6fa5;
 }
 
 * {
@@ -228,7 +228,7 @@ ul {
 .hero-image {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../assets/images_by_me/prague5.jpeg");
+    url("../assets/images_downloaded/neom-STV2s3FYw7Y-unsplash.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -249,7 +249,7 @@ ul {
 
 .hero-title {
   font-family: var(--font-heading);
-  color: var(--vanilla);
+  color: var(--gold);
   font-size: 4rem;
   text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
   font-weight: 300;
