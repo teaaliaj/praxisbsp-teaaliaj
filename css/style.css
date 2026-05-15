@@ -493,18 +493,19 @@ ul {
   display: block;
   margin: 20px auto;
   padding: 15px 35px;
-  background-color: var(--denim);
+  background-color: var(--deepblue);
   margin-top: 20px;
-  color: var(--vanilla);
+  color: var(--cream);
   text-decoration: none;
   border-radius: 70px;
   transition: transform 0.3s ease;
 }
 
 .button-submit:hover {
-  background-color: var(--deepblue);
+  background-color: var(--denim);
+  color: var(--cream);
 }
-
+/*IMPRESSUM STYLE*/
 .impressum {
   background-color: var(--denim);
 }
@@ -525,6 +526,7 @@ ul {
   font-weight: 400;
 }
 
+/*LICENSE CONTAINER*/
 .license-container {
   max-width: 800px;
   margin-left: 0 auto;
@@ -659,17 +661,18 @@ ul {
 .trademark-section h1{
   margin-bottom: 20px;
 }
-
 .trademark-section h2{
   margin-bottom: 10px;
 }
 .trademark-section h3{
   font-weight: 600;
   margin-bottom: 10px;
-}.trademark-section p{
+}
+.trademark-section p{
   margin-bottom: 10px;
   font-weight: 400;
 }
+
 /*Nizza Klassen*/
 .nizza-klassen{
   padding: 60px;
