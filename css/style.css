@@ -89,29 +89,26 @@ header {
   margin-left: 0;
 }
 
+/*NAV BAR STYLE*/
 nav {
   flex-grow: 1;
 }
-
 .nav__links {
   display: flex;
   justify-content: flex-end;
   list-style: none;
   align-items: center;
 }
-
 .nav__links li {
   display: inline-block;
   padding: 0px 15px;
 }
-
 .nav__links li:not(.brand-link) a {
   font-family: var(--font-body);
   color: var(--deepblue);
   font-size: 18px;
   transition: all 0.3s ease 0s;
 }
-
 .nav__links li a:hover {
   color: var(--vanilla);
 }
@@ -123,7 +120,6 @@ button {
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
-
 button:hover {
   background-color: var();
   color: white;
@@ -150,17 +146,15 @@ button:hover {
 ul {
   list-style: none;
 }
-
+/*FOOTER STYLE*/
 .footer {
   background-color: var(--deepblue);
   padding: 60px 0;
 }
-
 .footer-col {
   width: 25%;
   padding: 0 15px;
 }
-
 .footer-col h4 {
   font-size: 18px;
   color: var(--vanilla);
@@ -170,7 +164,6 @@ ul {
   font-weight: 500;
   position: relative;
 }
-
 .footer-col h4::before {
   content: "";
   position: absolute;
@@ -181,11 +174,9 @@ ul {
   box-sizing: border-box;
   width: 50px;
 }
-
 .footer-col ul li:not(:last-child) {
   margin-bottom: 10px;
 }
-
 .footer-col ul li a {
   font-size: 16px;
   text-transform: capitalize;
@@ -196,17 +187,10 @@ ul {
   display: block;
   transition: all 0.3s ease;
 }
-
 .footer-col ul li a:hover {
   color: var(--sky);
   padding-left: 7px;
 }
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .footer-col .social-links a {
   display: inline-block;
   height: 40px;
@@ -219,12 +203,16 @@ ul {
   transition: all 0.5s ease;
   color: var(--deepblue);
 }
-
 .footer-col .social-links a:hover {
   color: var(--vanilla);
   background-color: var(--sky);
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*HERO HOMEPAGE STYLE*/
 .hero-image {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
@@ -238,13 +226,11 @@ ul {
   align-items: center; 
   text-align: center;
 }
-
 .hero-content {
   max-width: 800px; /* Prevents text from stretching too wide */
   padding: 20px;
   z-index: 1;
 }
-
 .hero-title {
   font-family: var(--font-heading);
   color: var(--gold);
@@ -252,7 +238,6 @@ ul {
   text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
   font-weight: 300;
 }
-
 .hero-subtitle {
   font-family: var(--font-body);
   color: var(--vanilla);
@@ -262,18 +247,16 @@ ul {
   text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
   margin-bottom: 30px;
 }
-
 .hero-btn {
   display: inline-block;
   padding: 15px 35px;
-  background-color: var(--denim); /* That warm accent color we picked */
-  color: var(--vanilla);
+  background-color: var(--gold); /* That warm accent color we picked */
+  color: var(--cream);
   text-decoration: none;
   border-radius: 70px;
   font-weight: bold;
   transition: transform 0.3s ease;
 }
-
 .hero-btn:hover {
   transform: scale(1.01);
 }
@@ -332,7 +315,7 @@ ul {
   margin-top: 10px;
   text-decoration: none;
   font-weight: bold;
-  color: var(--clay);
+  color: var(--deepblue);
   transition: transform 0.3s ease;
 }
 
@@ -342,57 +325,6 @@ ul {
 .section-padding {
   padding: 80px 10%;
   text-align: center;
-}
-
-.feature-container,
-.steps-wrapper,
-.dest-container,
-.pricing-wrapper {
-  display: flex;
-  flex-wrap: wrap; /* Allows cards to drop to next line on mobile */
-  justify-content: center;
-  gap: 30px; /* Space between the cards */
-  margin-top: 40px;
-}
-
-.price-card,
-.feature-card,
-.dest-card {
-  background: var(--white);
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-  flex: 1;
-  min-width: 280px; /* Prevents cards from getting too skinny */
-  max-width: 350px;
-}
-
-.section-padding {
-  padding: 80px 10%; /* Lots of top/bottom space and side breathing room */
-  text-align: center;
-}
-
-.feature-container,
-.steps-wrapper,
-.dest-container,
-.pricing-wrapper {
-  display: flex;
-  flex-wrap: wrap; /* Allows cards to drop to next line on mobile */
-  justify-content: center;
-  gap: 30px; /* Space between the cards */
-  margin-top: 40px;
-}
-
-.price-card,
-.feature-card,
-.dest-card {
-  background: var(--white);
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-  flex: 1;
-  min-width: 280px; /* Prevents cards from getting too skinny */
-  max-width: 350px;
 }
 
 /*PRIVACY PAGE STYLE*/
