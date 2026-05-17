@@ -1,0 +1,20 @@
+Aufgabe 6 - Gewerbe
+
+Impressum gemäß § 24 Mediengesetz:
+Unternehmensname:Aliaj GmbH
+Unternehmesngegenstand:Entwicklung und Vertrieb von Reiseführer-Software
+Adresse:Mariahilfer Straße 45/3, 1060 Wien, Österreich
+Geschäftsführerin: Tea Aliaj
+E-Mail: contact@thetraveltea.com
+Tel: +43 1 234 5678
+UID-Nummer: ATU12345678
+Firmenbuchnummer: FN 123456a
+Firmenbuchgericht: Handelsgericht Wien
+WKO-Mitgliedschaft: Mitglied der Wirtschaftskammer Wien
+Berufsrecht: Gewerbeordnung (GewO)
+Rechtsvorschriften: www.ris.bka.gv.at
+Aufsichtsbehörde: Magistrat der Stadt Wien
+
+Kontaktseite: contact.html
+Gemockt Kontaktformular mit Name, E-Mail, Telefon und Nachricht (kein Backend)
+JavaScript Alert als Bestätigungsmeldung.

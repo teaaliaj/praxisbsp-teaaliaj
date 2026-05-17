@@ -4,7 +4,9 @@ Die Website wurde gemäß den WCAG 2.2, Stufe AA, entwickelt.
 
 Maßnahmen:
 Alle images haben alt text.
-Verwendung von semantic HTML  (Header,Nav,Main,Footer)
-"skip to main content " link auf allen Seiten
-"Keyboard navigation" auf allen Seiten verfügbar
+Verwendung von semantic HTML  (Header,Nav,Main,Footer).
+"skip to main content " link auf allen Seiten.
+"Keyboard navigation" auf allen Seiten verfügbar.
 Farbkontraste wurden mit dem Coolors Contrast Checker überprüft. (folder:praxisbsp-teaaliaj\assets\testing\coolors_contrast_tester)
+Getestet mit WAVE (0 Errors).
+Consistent Farbschema, Typografie und Layout auf allen Seiten.

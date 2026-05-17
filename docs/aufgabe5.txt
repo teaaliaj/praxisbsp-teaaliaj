@@ -1,0 +1,35 @@
+Aufgabe 5 - Datenschutz
+
+Datenschutzerklärung erstellt mit datenschutz-generator.de von Dr. Thomas Schwenke.
+Abrufbar auf der Seite: privacy.html
+
+Abgedeckte Prozesse:
+
+1.Kontaktformular
+
+Name,E-Mail-Adresse und Nachricht werden verarbeitet um Anfragen zu beantworten.
+Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO
+
+2.Cookies
+Die Website setzt Cookies ein. (Cookie-Banner informiert Nutzer und holt deren Einwilligung ein)
+Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO
+
+3.Google Fonts
+Schriftarten werden vom Google-Serveer geladen. Dabei wird die IP-Adresse des Nutzers and Google übermittelt.
+Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO
+
+4.Font Awesome CDN
+Icons werden über einen externen CDN-Server eingebunden.
+Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO
+
+5.Webhosting via GitHub Pages
+Zugriffsdaten werden als Server-Logfiles protokolliert.
+Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO
+
+Betroffenenrechte gemäß Art. 15-17 DSGVO:
+Auskunftsrecht
+Recht auf Berichtigung
+Recht auf Löschung
+Recht auf Widerspruch
+
+Zuständige Aufsichtsbehörde: Österreichische Datenschutzbehörde, Barichgasse 40-42, 1030 Wien

@@ -1,0 +1,29 @@
+Aufgabe 3- Marke
+
+Drei Markenformen:
+1.Wort-Bildmarke: "The travel tea Schriftzug" + Tasse mit Flugzeug Logo
+2-Mustermarke: „all-over-print“-Muster (Hauptlogo: Teetasse und Flugzeug, Reisepass, Reisestempel)
+3-Farbmarke: „Catalina Blue“ (#1d3557) und „Golden Sand“ (#e9c46a) als Markfarben
+
+Bedeutung der Marke:
+
+Zunächst einmal der Name: „The travel tea“ ist ein Wortspiel und 
+hat zwei Bedeutungen. Die erste Bedeutung stammt aus der Umgangssprache („the tea“), wo damit Neuigkeiten, 
+Klatsch oder Informationen rund ums Reisen gemeint sind, und die zweite Bedeutung leitet sich von meinem Namen ab, 
+da ich Tea heiße und viel reise. Ich dachte, das könnte eine sehr interessante und persönliche Start-up-Idee sein.
+
+Das Logo: Da „Tee“ Teil des Markennamens ist, habe ich mich dafür entschieden, 
+eine dampfende Teetasse hinzuzufügen, wobei der Dampf die Kondensstreifen des Flugzeugs darstellt, 
+da sich diese Plattform auf das Reisen konzentriert und Menschen Reisen mit Flugzeugen assoziieren.
+
+Die Farbpalette: Reisen wird mit Abenteuer, Entspannung und Positivität assoziiert, und keine Farben können dies besser 
+verkörpern als Blau- und Goldtöne.
+
+Nizza-Klassen:
+Klasse 9: Software, digitale Reiseführer
+Klasse 39: Reiseplanung und Transportdienstleistungen
+Klasse 42: Software-as-a-Service, digitale Dienstleitsungen.
+
+Markenrechereche:
+Ich habe auf euipo.europa.eu/eSearch nach dem Begriff „The Travel Tea“ sowie nach dem Logo gesucht. 
+– Es wurde kein identischer Eintrag gefunden.(folder:assets\testing\euipo)
