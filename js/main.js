@@ -3,3 +3,4 @@ document.getElementById('contactForm').addEventListener('submit',function(e){
     alert('Vielen Dank! Wir melden uns bald bei Ihnen. ☕✈️') ;
     this.reset();
 });
+

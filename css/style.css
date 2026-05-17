@@ -207,6 +207,81 @@ ul {
 
 /*Homepage HTML Page style*/
 
+/*Skip-link*/
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background-color: var(--deepblue);
+  color: white;
+  padding: 10px 20px;
+  z-index: 9999;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: top 0.2s;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+/*COOKIE POP UP HTML*/
+#cookiePopup {
+  background-color: var(--cream);
+  position: fixed;
+  z-index: 9999;
+  font-size: 14px;
+  font-family: var(--font-body);
+  width: 70vw;
+  max-width: 42.85em;
+  box-shadow: 0 0 2em rgba(5, 0, 31, 0.15);
+  text-align: justify;
+  line-height: 1.8em;
+  padding: 2em 1.4em;
+  border-radius: 6px;
+  transition: all 0.5s ease-in;
+  bottom: 20px;
+  right: 20px;
+}
+#cookiePopup p {
+  text-align: center;
+  margin: 1.4em 0;
+}
+.cookie-buttons {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: auto;
+}
+.accept {
+  background-color: green;
+  color: white;
+  display: block;
+  padding: 1em 1.4em;
+  border: none;
+  border-radius: 0%;
+}
+.decline {
+  background-color: red;
+  color: white;
+  display: block;
+  padding: 1em 1.4em;
+  border: none;
+  border-radius: 0%;
+}
+.hide {
+  visibility: hidden;
+  bottom: 2em;
+  right: 2em;
+}
+.show {
+  visibility: visible;
+  bottom: 2em;
+  right: 2em;
+}
+
 /*HERO STYLE*/
 .hero-image {
   background-image:
@@ -222,7 +297,7 @@ ul {
   text-align: center;
 }
 .hero-content {
-  max-width: 800px; 
+  max-width: 800px;
   padding: 20px;
   z-index: 1;
 }
@@ -420,9 +495,8 @@ ul {
   justify-content: center;
 }
 
-
 /*FINAL STYLE*/
-.final-title{
+.final-title {
   font-size: 45px;
   padding-left: 20px;
   color: white;
@@ -441,11 +515,10 @@ ul {
   text-align: center;
 }
 .final-content {
-  max-width: 800px; 
+  max-width: 800px;
   padding: 20px;
   z-index: 1;
 }
-
 
 /*PRICING STYLE*/
 .pricing {
