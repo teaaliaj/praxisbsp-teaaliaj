@@ -258,7 +258,7 @@ ul {
 
 /*About section style*/
 .about-section {
-  padding: 100px 10%;
+  padding: 40px 5%;
   background-color: var(--vanilla);
 }
 .about-container {
@@ -289,7 +289,7 @@ ul {
   flex: 1.2;
 }
 .about-text h2 {
-  font-size: 2.5rem;
+  font-size: 45px;
   margin-bottom: 20px;
   color: var(--dark-slate);
 }
@@ -314,21 +314,63 @@ ul {
   text-align: center;
 }
 
-/*DESTINATIONS PAGE STYLE*/
-.destinations{
-  padding: 100px 10%;
+/*FEATURES PAGE STYLE*/
+.features {
+  padding: 40px 5%;
+  background-color: var(--gold);
 }
-.destinations h1{
-  font-size: 40px;
+.features h1 {
+  color: var(--cream);
+  font-size: 45px;
   padding-left: 20px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.card {
+  width: 325px;
+  background-color: var(--vanilla);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+.card-content {
+  padding: 16px;
+}
+.card-content h2 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.card-content p {
+  margin-bottom: 10px;
+}
+.card img {
+  width: 100%;
+  height: 230px;
+  display: block;
+}
+/*DESTINATIONS PAGE STYLE*/
+.destinations {
+  padding: 40px 5%;
+  background-color: var(--deepblue);
+  color: var(--cream);
+}
+.destinations h1 {
+  font-size: 45px;
+  padding-left: 20px;
+  color: var(--cream);
 }
 .destinations-container {
   width: 100%;
-  padding: 40px 0;
+  padding: 20px 0;
 }
 .slider {
   display: flex;
-  gap: 4px;
+  gap: 8px;
   padding: 16px;
   list-style: none;
   overflow-x: auto;
@@ -337,14 +379,15 @@ ul {
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
-.list::-webkit-scrollbar{
+.list::-webkit-scrollbar {
   display: none;
 }
 .slide {
   flex-shrink: 0;
-  width: 450px;
+  width: 325px;
   height: 400px;
-  background-color: #FFF;
+  margin: 1px;
+  background-color: #fff;
   border-radius: 8px;
   scroll-snap-align: center;
   position: relative;
@@ -354,8 +397,9 @@ ul {
   height: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 8px;
 }
-.slide-text{
+.slide-text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -367,10 +411,43 @@ ul {
   text-align: center;
   width: 100%;
   padding: 0 10px;
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
-
+.pricing {
+  padding: 40px 5%;
+  background-color: var(--vanilla);
+}
+.pricing h1 {
+  font-size: 45px;
+  padding-left: 20px;
+}
+.pricing-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.pricing-card {
+  width: 400px;
+  height: 250px;
+  background-color: var(--vanilla);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  justify-content: center;
+}
+.pricing-card-content {
+  padding: 16px;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.pricing-card-content {
+  padding: 16px;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
 
 /*Privacy HTML Page Style*/
 

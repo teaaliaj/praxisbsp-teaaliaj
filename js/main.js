@@ -1,5 +1,5 @@
 document.getElementById('contactForm').addEventListener('submit',function(e){
     e.preventDefault();
-    alert('Thank you! We will be in touch soon ☕✈️') ;
+    alert('Vielen Dank! Wir melden uns bald bei Ihnen. ☕✈️') ;
     this.reset();
 });
