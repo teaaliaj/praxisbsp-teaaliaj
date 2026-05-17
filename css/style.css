@@ -320,7 +320,7 @@ ul {
   background-color: var(--gold);
 }
 .features h1 {
-  color: var(--cream);
+  color: white;
   font-size: 45px;
   padding-left: 20px;
 }
@@ -415,6 +415,7 @@ ul {
 }
 
 
+/*FINAL STYLE*/
 .final-title{
   font-size: 45px;
   padding-left: 20px;
@@ -440,7 +441,7 @@ ul {
 }
 
 
-
+/*PRICING STYLE*/
 .pricing {
   padding: 40px 5%;
   background-color: var(--vanilla);
