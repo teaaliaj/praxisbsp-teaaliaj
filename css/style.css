@@ -320,7 +320,7 @@ ul {
   background-color: var(--gold);
 }
 .features h1 {
-  color: white;
+  color: var(--deepblue);
   font-size: 45px;
   padding-left: 20px;
 }
